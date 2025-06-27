@@ -1,5 +1,0 @@
-# Dockerfile
-FROM openjdk:17-jdk-slim
-VOLUME /tmp
-COPY target/*.jar testapp.jar
-ENTRYPOINT ["java", "-jar", "/testapp.jar"]
